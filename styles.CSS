@@ -1,0 +1,118 @@
+*{
+   margin: 0; 
+   padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url(pics/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+    transition: .4s ease;
+
+}
+
+ul li a:hover{
+    color: rgb(230,104,59);
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: rgb(36,32,30);
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.image img{
+    position: absolute;
+    height: 500px;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+.image:hover .photo{
+    left: 55%;
+}
+
+.icons a{
+    text-decoration: none;
+    color: black;
+}
+
+.icons ion-icon{
+    margin-left: 7%;
+    color: black;
+    margin-right: -60px;
+    font font-size: 70px;
+}
+
+.fa-linkedin
+{
+    font-size: 50px;
+}
+
+.fa-github
+{
+    font-size: 50px;
+}
+
+.fa-envelope
+{
+    font-size: 50px;
+}
